@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <style>
+    .bubble { fill: #111111; }
+    .pulse { stroke: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .bubble { fill: #ededed; }
+      .pulse { stroke: #000000; }
+    }
+  </style>
+  <path class="bubble" d="M5 7h38v26H19l-10 8v-8H5z"/>
+  <path class="pulse" d="M10 20h8l3-6 5 12 3-6h9" fill="none" stroke-width="3" stroke-linejoin="miter"/>
+</svg>
